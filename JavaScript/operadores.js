@@ -23,3 +23,17 @@ numero++;
 //Decremento (--): Se utiliza para disminuir en 1 el valor de una variable.
 let numero1 = 8;
 numero1--; //ahora número contendrá el valor 7
+
+
+
+//Doble igual - igualdad abstracta
+5 == "5" //true ya que JavaScript convierte la cadena "5" a un número antes de la comparación.
+
+//Triple igual - igualdad estricta
+5 === "5" //false, porque no son del mismo tipo y los tipos también difieren.
+
+
+//Ejercicio de convertir de Grados Celcius a Farenheit
+let gradosCelsius = prompt("Ingresa los grados Celcius a convertir:");
+gradosFahrenheit = (gradosCelsius * (9/5)) + 32;
+console.log("Los grados Fahrenheit son: " + gradosFahrenheit + "°F");
